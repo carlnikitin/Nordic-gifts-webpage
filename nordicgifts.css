@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.header {
+    height: 55px;
+    background-color: #916666;
+}
+
+.circle img {
+    width: 120px;
+    margin: 0 auto;
+}
+
+.circle img:hover {
+    opacity: 0.8;
+}
+
+.circle li {
+    float: left;
+    list-style-type: none;
+    width: 33.3%;
+    text-align: center;
+    margin: 60px 0px 60px 0px;
+}
+
+.circle p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.contactbutton {
+    text-align: center;
+}
+
+.contactbutton button {
+    background-color: #ff3434;
+    border: 0px;
+    color: #fff;
+    margin: 60px 0px 80px 0px;
+    font-size: 19px;
+    padding: 10px 20px 10px 20px;
+}
+
+.contactbutton button:hover {
+    background-color: #e64242;
+    color: #fff;
+}
+
+.footer {
+    width: 100%;
+    height: 55px;
+    background-color: #916666;
+    color: #fff;
+    text-align: center;
+    line-height: 55px;
+    font-size: 18px;
+}
+
+
+.mainarea {
+    height: 450px;
+    background-image: url(mainpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.navbar {
+    text-transform: uppercase;
+}
+
+.footer p {
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+/*Mobile view*/
+@media only screen and (max-width: 768px) {
+    .circle li {
+        float: none;
+        width: 100%;
+        margin: 50px auto 0px auto;
+    }
+
+    .circle p {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    .contactbutton button {
+        margin: 30px 0px 110px 0px;
+    }
+}
